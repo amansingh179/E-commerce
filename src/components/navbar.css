@@ -1,0 +1,37 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 100px;
+    align-items: center;
+    margin: 5px auto;
+    border-bottom: 2px solid black;
+}
+.navbar-items-1{
+    display: flex;
+    align-items: center;
+}
+.navbar-items-1 ul{
+    display: flex;
+}
+.navbar-items-1 ul li{
+    list-style-type: none;
+    font-size: large;
+    padding: 10px;
+}
+.navbar-items-1 ul li:hover{
+    color: grey;
+    cursor: pointer;
+}
+
+.sneaker{
+    height:30px;
+    align-items: center;
+}
+.avatar{
+
+height: 50px;
+}
+.cart{
+    padding-right: 15px;
+}
